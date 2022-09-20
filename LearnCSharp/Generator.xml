@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LearnCSharp</name>
+    </assembly>
+    <members>
+        <member name="T:LearnCSharp.Generator">
+            <summary>
+            The main Generator class
+            </summary>
+            <remarks>
+            This class generate random fake data
+            </remarks>
+        </member>
+        <member name="F:LearnCSharp.Generator.Id">
+            <value> This is main Id value</value>
+        </member>
+        <member name="M:LearnCSharp.Generator.Print(System.Int32,System.String,System.Nullable{System.DateTime})">
+            <summary>
+            this method print data by processing <paramref name="id"/> <paramref name="fName"/> <paramref name="date"/>
+            <list type="bullet">
+            <item>
+            <term>id</term>
+            <description>employee unique number</description>
+            </item>  
+            <item>
+            <term>f name</term>
+            <description>employee First Name</description>
+            </item>    
+            <item>
+            <term>date</term>
+            <description>employee hire date</description>
+            </item>
+            </list>
+            </summary>
+            <param name="id">this is id</param>
+            <param name="fName">this is first name</param>
+            <param name="date">this is hire date with format dd/MM/yyyy</param>
+            <example>
+            <code>
+            Generator.Print(1,"Mark", DateTime.Now.Date);
+            </code>
+            </example>
+            <remarks>remarks here</remarks>
+            <returns>
+            void
+            </returns>
+            <exception cref="T:System.ArgumentNullException">Desc the exception Here</exception>
+            See <see cref="M:LearnCSharp.Report.GetReport(System.Collections.Generic.List{LearnCSharp.Employee},System.String,LearnCSharp.Report.IsFitSales)">Text here</see>
+        </member>
+    </members>
+</doc>
